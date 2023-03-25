@@ -1,1 +1,1 @@
-# green-energy-project
+Green Energy Project adalah sebuah website karya jurnalistik demi pemenuhan tugas akhir Program Studi Manajemen Produksi Berita Sekolah Tinggi Multimedia Yogyakarta.
