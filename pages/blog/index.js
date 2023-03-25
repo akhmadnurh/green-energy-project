@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const Blog = () => {
   return (
@@ -6,7 +7,7 @@ const Blog = () => {
       <Head></Head>
       <div class="bg-black font-sans leading-normal tracking-normal">
         <div class="flex w-full items-center  justify-center">
-          <a
+          <Link
             class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125 filter invert mt-8"
             href="/"
           >
@@ -15,7 +16,7 @@ const Blog = () => {
               src="/images/maze2.svg"
               alt="maze"
             />
-          </a>
+          </Link>
         </div>
 
         {/* <!--Title--> */}
@@ -50,27 +51,27 @@ const Blog = () => {
               {/* <!--Lead Para--> */}
               <p class="text-2xl md:text-3xl mb-5">
                 👋 Welcome fellow{" "}
-                <a
+                <Link
                   class="text-white hover:text-green-500 no-underline border-b-2 border-green-500"
                   href="https://www.tailwindcss.com"
                 >
                   Tailwind CSS
-                </a>{" "}
+                </Link>{" "}
                 and{" "}
-                <a
+                <Link
                   class="text-white hover:text-green-500 no-underline border-b-2 border-green-500"
                   href="https://www.ghost.org"
                 >
                   Ghost
-                </a>{" "}
+                </Link>{" "}
                 fan. This starter template is an attempt to replicate the
                 default Ghost theme{" "}
-                <a
+                <Link
                   class="text-white hover:text-green-500 no-underline border-b-2 border-green-500"
                   href="https://demo.ghost.io/welcome"
                 >
                   "Casper"
-                </a>{" "}
+                </Link>{" "}
                 using Tailwind CSS and vanilla Javascript.
               </p>
 
@@ -131,7 +132,7 @@ const Blog = () => {
 
               <div class="w-full flex justify-center mt-24">
                 <object>
-                  <a href="#" title="Twitter">
+                  <Link href="#" title="Twitter">
                     <svg
                       class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                       style={{ fill: "white" }}
@@ -142,7 +143,7 @@ const Blog = () => {
                     >
                       <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </object>
               </div>
 
@@ -156,7 +157,7 @@ const Blog = () => {
             {/* <!--1/3 col --> */}
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink  text-white">
               <div class="flex-1 bg-gray-900  rounded-t rounded-b-none overflow-hidden shadow-lg">
-                <a
+                <Link
                   href="#"
                   class="flex flex-wrap no-underline hover:no-underline"
                 >
@@ -176,13 +177,13 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
-                </a>
+                </Link>
               </div>
               <div class="bg-gray-900 flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
                 <div class="flex items-center justify-between">
                   <div class="flex items-left">
                     <object>
-                      <a href="#" title="Twitter">
+                      <Link href="#" title="Twitter">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -193,10 +194,10 @@ const Blog = () => {
                         >
                           <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                     <object>
-                      <a href="#" title="Facebook">
+                      <Link href="#" title="Facebook">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -207,10 +208,10 @@ const Blog = () => {
                         >
                           <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                     <object>
-                      <a class="" href="#" title="Instagram">
+                      <Link class="" href="#" title="Instagram">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -223,7 +224,7 @@ const Blog = () => {
                           <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
                           <circle cx="351.5" cy="160.5" r="21.5"></circle>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                   </div>
                   <p class=" text-xs md:text-sm">1 MIN READ</p>
@@ -234,7 +235,7 @@ const Blog = () => {
             {/* <!--1/3 col --> */}
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink  text-white">
               <div class="flex-1 bg-gray-900  rounded-t rounded-b-none overflow-hidden shadow-lg">
-                <a
+                <Link
                   href="#"
                   class="flex flex-wrap no-underline hover:no-underline"
                 >
@@ -254,13 +255,13 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
-                </a>
+                </Link>
               </div>
               <div class="bg-gray-900 flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
                 <div class="flex items-center justify-between">
                   <div class="flex items-left">
                     <object>
-                      <a href="#" title="Twitter">
+                      <Link href="#" title="Twitter">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -271,10 +272,10 @@ const Blog = () => {
                         >
                           <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                     <object>
-                      <a href="#" title="Facebook">
+                      <Link href="#" title="Facebook">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -285,10 +286,10 @@ const Blog = () => {
                         >
                           <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                     <object>
-                      <a class="" href="#" title="Instagram">
+                      <Link class="" href="#" title="Instagram">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -301,7 +302,7 @@ const Blog = () => {
                           <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
                           <circle cx="351.5" cy="160.5" r="21.5"></circle>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                   </div>
                   <p class=" text-xs md:text-sm">1 MIN READ</p>
@@ -312,7 +313,7 @@ const Blog = () => {
             {/* <!--1/3 col --> */}
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink  text-white">
               <div class="flex-1 bg-gray-900  rounded-t rounded-b-none overflow-hidden shadow-lg">
-                <a
+                <Link
                   href="#"
                   class="flex flex-wrap no-underline hover:no-underline"
                 >
@@ -332,13 +333,13 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
-                </a>
+                </Link>
               </div>
               <div class="bg-gray-900 flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
                 <div class="flex items-center justify-between">
                   <div class="flex items-left">
                     <object>
-                      <a href="#" title="Twitter">
+                      <Link href="#" title="Twitter">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -349,10 +350,10 @@ const Blog = () => {
                         >
                           <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                     <object>
-                      <a href="#" title="Facebook">
+                      <Link href="#" title="Facebook">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -363,10 +364,10 @@ const Blog = () => {
                         >
                           <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                     <object>
-                      <a class="" href="#" title="Instagram">
+                      <Link class="" href="#" title="Instagram">
                         <svg
                           class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                           style={{ fill: "white" }}
@@ -379,7 +380,7 @@ const Blog = () => {
                           <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
                           <circle cx="351.5" cy="160.5" r="21.5"></circle>
                         </svg>
-                      </a>
+                      </Link>
                     </object>
                   </div>
                   <p class=" text-xs md:text-sm">1 MIN READ</p>
@@ -402,12 +403,12 @@ const Blog = () => {
             <p class="text-gray-600 text-xs md:text-base">Some other text</p>
             <p class="text-gray-600 text-xs md:text-base">
               Opensource theme based on{" "}
-              <a
+              <Link
                 href="https://github.com/tailwindtoolbox/Ghostwind"
                 class="text-gray-300"
               >
                 Ghostwindcss
-              </a>
+              </Link>
             </p>
           </div>
           {/* <!--/legal text--> */}
@@ -417,7 +418,7 @@ const Blog = () => {
           <div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
             <div class="w-full mx-auto flex flex-wrap items-center">
               <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold content-center">
-                <a
+                <Link
                   class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125 "
                   href="/"
                 >
@@ -426,12 +427,12 @@ const Blog = () => {
                     src="/ressources/images/autres/maze2.svg"
                     alt="maze"
                   />
-                </a>
+                </Link>
               </div>
               <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
                 <ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
                   <li>
-                    <a href="#" title="Twitter">
+                    <Link href="#" title="Twitter">
                       <svg
                         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                         style={{ fill: "white" }}
@@ -442,10 +443,10 @@ const Blog = () => {
                       >
                         <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" title="Instagram">
+                    <Link href="#" title="Instagram">
                       <svg
                         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                         style={{ fill: "white" }}
@@ -458,10 +459,10 @@ const Blog = () => {
                         <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
                         <circle cx="351.5" cy="160.5" r="21.5"></circle>
                       </svg>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" title="Facebook">
+                    <Link href="#" title="Facebook">
                       <svg
                         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-150 "
                         style={{ fill: "white" }}
@@ -472,7 +473,7 @@ const Blog = () => {
                       >
                         <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
