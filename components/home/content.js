@@ -20,10 +20,6 @@ const Content = ({ category, title, link, image }) => {
             </p>
           </div>
           <div className="w-full font-bold text-xl mt-6 px-6">{title}</div>
-          {/* <p className=" font-serif text-base px-6 mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-            ipsum eu nunc commodo posuere et sit amet ligula.
-          </p> */}
         </div>
       </div>
       <div className="bg-gray-900 flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow-lg p-6">

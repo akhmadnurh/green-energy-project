@@ -17,12 +17,10 @@ export default function Home() {
       <div className="bg-black font-sans leading-normal tracking-normal">
         {/* <!--Header--> */}
         <div
-          className="w-full m-0 p-0 bg-cover bg-bottom h-[25vh] md:h-[35vh]"
+          className="w-full m-0 p-0 bg-cover bg-bottom h-[25vh] lg:h-[35vh]"
           style={{
-            backgroundImage:
-              "url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=1380&t=st=1679902634~exp=1679903234~hmac=36dd14a8f6a1d871c3c6d5e486968301aa873b3286fa1c49e3ae0740f8dfe78b')",
+            backgroundImage: "url('/images/bg.png')",
             maxHeight: "660px",
-            // backgroundColor: "black",
           }}
         >
           <div className="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
@@ -43,12 +41,12 @@ export default function Home() {
         {/* <!--Lead Card--> */}
         <div className="flex h-full w-full bg-black  rounded overflow-hidden shadow-lg min-h-[30vh] md:min-h-[50vh]">
           <div className="flex flex-wrap">
-            <div className="w-full md:w-2/3">
+            <div className="w-full lg:w-2/3">
               <Image
                 src="https://static.wixstatic.com/media/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg/v1/fill/w_800,h_400,fp_0.61_0.28,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg"
                 className="h-full w-full shadow"
-                width={800}
-                height={400}
+                width={0}
+                height={0}
                 alt="About"
                 unoptimized
               />

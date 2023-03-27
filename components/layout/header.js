@@ -37,13 +37,13 @@ const Header = () => {
             Home
           </Link>
           <a
-            href="#responsive-header"
+            href="/about-us"
             className="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white mr-4"
           >
             Tentang Kami
           </a>
           <a
-            href="#responsive-header"
+            href="/contact"
             className="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white"
           >
             Kontak

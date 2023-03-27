@@ -77,7 +77,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -98,8 +97,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -124,7 +123,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -145,8 +143,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -176,7 +174,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -197,8 +194,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -236,7 +233,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -257,8 +253,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -327,7 +323,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -348,8 +343,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -405,7 +400,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -426,8 +420,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -454,7 +448,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -475,8 +468,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -500,7 +493,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -521,8 +513,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -552,7 +544,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -573,8 +564,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -611,7 +602,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -632,8 +622,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -666,7 +656,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -687,8 +676,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -715,7 +704,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -736,8 +724,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -776,7 +764,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -797,8 +784,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -866,7 +853,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -887,8 +873,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -940,7 +926,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -961,8 +946,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -1006,7 +991,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -1027,8 +1011,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -1052,7 +1036,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -1073,8 +1056,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -1097,7 +1080,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -1118,8 +1100,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -1155,7 +1137,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -1176,8 +1157,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
@@ -1240,7 +1221,6 @@ const Blog = () => {
                 ></iframe>
                 <div
                   style={{
-                    width: "100%!",
                     marginTop: "4px!important",
                     textAlign: "right!important",
                   }}
@@ -1261,8 +1241,8 @@ const Blog = () => {
                         border: "none!important",
                         margin: "0!important",
                       }}
-                      width={0}
-                      height={0}
+                      width={105}
+                      height={16}
                     />{" "}
                   </a>
                 </div>
