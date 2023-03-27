@@ -7,13 +7,6 @@ import Content from "../components/home/content";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Green Energy Project</title>
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-          rel="stylesheet"
-        />
-      </Head>
       <div className="bg-black font-sans leading-normal tracking-normal">
         {/* <!--Header--> */}
         <div
