@@ -14,15 +14,15 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
       <div className="bg-black font-sans leading-normal tracking-normal">
         {/* <!--Header--> */}
         <div
-          className="w-full m-0 p-0 bg-cover bg-bottom"
+          className="w-full m-0 p-0 bg-cover bg-bottom h-[25vh] md:h-[35vh]"
           style={{
-            backgroundImage: "url('/images/greatmaze.jpeg')",
-            height: "40vh",
+            backgroundImage:
+              "url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=1380&t=st=1679902634~exp=1679903234~hmac=36dd14a8f6a1d871c3c6d5e486968301aa873b3286fa1c49e3ae0740f8dfe78b')",
             maxHeight: "660px",
+            // backgroundColor: "black",
           }}
         >
           <div className="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
@@ -30,22 +30,27 @@ export default function Home() {
             <p className="text-white font-extrabold text-3xl md:text-5xl">
               <span className="text-green-500">Green</span> Energy Project
             </p>
-            <p className="text-xl md:text-2xl bg-black inline-block px-6 py-1 text-white mt-3">
+            <p className="text-xl md:text-2xl inline-block px-6 py-1 text-white mt-3">
               Sebuah Karya Jurnalistik Tentang Transisi Energi.
             </p>
           </div>
         </div>
 
+        {/* Navbar */}
+        <Header />
+
+        {/* Navbar */}
         {/* <!--Lead Card--> */}
         <div className="flex h-full w-full bg-black  rounded overflow-hidden shadow-lg min-h-[30vh] md:min-h-[50vh]">
           <div className="flex flex-wrap">
             <div className="w-full md:w-2/3">
               <Image
-                src="https://source.unsplash.com/collection/494263/800x400"
+                src="https://static.wixstatic.com/media/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg/v1/fill/w_800,h_400,fp_0.61_0.28,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg"
                 className="h-full w-full shadow"
-                width={0}
-                height={0}
+                width={800}
+                height={400}
                 alt="About"
+                unoptimized
               />
             </div>
             <div className="w-full md:w-1/3 flex flex-col flex-grow flex-shrink bg-black text-white">
@@ -89,17 +94,26 @@ export default function Home() {
                 <Content
                   category={"Longform"}
                   title={"Manifestasi Pelik Transisi Energi"}
-                  link={"/blog"}
+                  link={"/blog/longform"}
+                  image={
+                    "https://static.wixstatic.com/media/11062b_c636542739294badbb2e7e6503808d58~mv2.jpeg/v1/crop/x_155,y_0,w_5679,h_4543/fill/w_301,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Reading%20the%20Paper.jpeg"
+                  }
                 />
                 <Content
                   category={"Video Eksplanatori"}
                   title={"Meneropong Mimpi Ramah Lingkungan Penuh Simalakama"}
-                  link={"/blog"}
+                  link={"/blog/eksplanatori"}
+                  image={
+                    "https://static.wixstatic.com/media/11062b_65ac6a4473e04cdc9f6295dc9fbb1c85~mv2.jpeg/v1/crop/x_618,y_0,w_3750,h_3000/fill/w_301,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/TV%20Reporter.jpeg"
+                  }
                 />
                 <Content
                   category={"Newsgame"}
                   title={"Project Nirwana: Re-Nusantara"}
-                  link={"/blog"}
+                  link={"/blog/newsgame"}
+                  image={
+                    "https://static.wixstatic.com/media/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg/v1/crop/x_1119,y_0,w_5600,h_4480/fill/w_301,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Morning%20Coffee%20%26%20Paper.jpg"
+                  }
                 />
               </Section>
               {/* <!--/ Post Content--> */}

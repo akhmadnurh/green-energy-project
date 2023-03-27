@@ -12,34 +12,33 @@ import Header from "../../components/layout/header";
 const Blog = () => {
   return (
     <>
-      {/* <Head></Head> */}
       <Header />
-      <div class="bg-black font-sans leading-normal tracking-normal">
+      <div className="bg-black font-sans leading-normal tracking-normal">
         {/* <!--Title--> */}
-        <div class="text-center pt-16 md:pt-32  pb-6">
-          <h1 class="font-bold break-normal text-3xl md:text-5xl text-white">
+        <div className="text-center pt-16 md:pt-32  pb-6">
+          <h1 className="font-bold break-normal text-3xl md:text-5xl text-white">
             Manifestasi Pelik Transisi Energi
           </h1>
-          <p class="text-sm md:text-base text-green-500 font-bold">
+          <p className="text-sm md:text-base mt-1 text-green-500 font-bold">
             08 APRIL 2023{" "}
           </p>
         </div>
 
         {/* <!--image--> */}
         <div
-          class="container w-full max-w-6xl mx-auto  bg-cover rounded"
+          className="container w-full max-w-6xl mx-auto  bg-cover rounded"
           style={{
             backgroundImage:
-              "url('https://source.unsplash.com/collection/1118905/')",
+              "url('https://www.prococommodities.com/wp-content/uploads/2020/03/power-header_1600x900_acf_cropped.jpg')",
             height: "75vh",
           }}
         ></div>
 
         {/* <!--Container--> */}
-        <div class="container  max-w-5xl mx-auto -mt-32 mb-11">
-          <div class="mx-0 sm:mx-6">
+        <div className="container  max-w-5xl mx-auto -mt-32 mb-11">
+          <div className="mx-0 sm:mx-6">
             <div
-              class="bg-gray-900 w-full p-8 md:p-24 text-xl md:text-2xl text-gray-300 leading-normal"
+              className="bg-gray-900 w-full p-8 md:p-24 text-xl md:text-2xl text-gray-300 leading-normal"
               style={{ fontFamily: ["Georgia", "serif"] }}
             >
               {/* <!--Post Content--> */}
@@ -70,8 +69,8 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12672110/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
@@ -85,9 +84,9 @@ const Blog = () => {
                   className="w-full bg-white"
                 >
                   <a
-                    class="flourish-credit"
+                    className="flourish-credit"
                     href="https://public.flourish.studio/visualisation/12672110/?utm_source=embed&utm_campaign=visualisation/12672110"
-                    target="_top"
+                    target="_blank"
                     style={{ textDecoration: "none!important" }}
                   >
                     <Image
@@ -117,8 +116,8 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12606533/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
@@ -132,9 +131,9 @@ const Blog = () => {
                   className="w-full bg-white"
                 >
                   <a
-                    class="flourish-credit"
+                    className="flourish-credit"
                     href="https://public.flourish.studio/visualisation/12606533/?utm_source=embed&utm_campaign=visualisation/12606533"
-                    target="_top"
+                    target="_blank"
                     style={{ textDecoration: "none!important" }}
                   >
                     <Image
@@ -169,14 +168,42 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12648599/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12648599/?utm_source=embed&utm_campaign=visualisation/12648599"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
-              {/* <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12648599/?utm_source=embed&utm_campaign=visualisation/12648599' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div> */}
+              {/* <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a className='flourish-credit' href='https://public.flourish.studio/visualisation/12648599/?utm_source=embed&utm_campaign=visualisation/12648599' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div> */}
               <Paragraph>
                 Faktor utama tingginya emisi karbon dari produksi energi bisa
                 terjadi karena penggunaan masif dari energi kotor untuk
@@ -201,12 +228,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12646984/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12646984/?utm_source=embed&utm_campaign=visualisation/12646984"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Jika dilihat secara persentase melalui data yang tertera dalam
@@ -264,12 +319,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12674114/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12674114/?utm_source=embed&utm_campaign=visualisation/12674114"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 ESDM memilih tahun 2022 sebagai tahun pertama dalam rancangan
@@ -314,12 +397,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12648927/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12648927/?utm_source=embed&utm_campaign=visualisation/12648927"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Untuk produksi batu bara misalnya, tercatat Cina memang menjadi
@@ -335,12 +446,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12648909/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12648909/?utm_source=embed&utm_campaign=visualisation/12648909"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Beralih ke gas alam, Indonesia mendapatkan peringkat 14 dalam
@@ -353,12 +492,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12648821/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12648821/?utm_source=embed&utm_campaign=visualisation/12648821"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Sementara itu, produksi minyak bumi Indonesia juga cukup membuat
@@ -377,12 +544,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12648545/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12648545/?utm_source=embed&utm_campaign=visualisation/12648545"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Jika dilihat berdasarkan perbandingan jumlah produksi energi
@@ -408,12 +603,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12648567/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12648567/?utm_source=embed&utm_campaign=visualisation/12648567"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Jika dilihat dari segi konsumsi, Indonesia tercatat mengonsumsi
@@ -435,12 +658,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12685614/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12685614/?utm_source=embed&utm_campaign=visualisation/12685614"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Laporan BP Statistical Energy Report juga berhasil mencatat
@@ -456,12 +707,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/story/1822797/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/1822797/?utm_source=embed&utm_campaign=visualisation/1822797"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Di tahun 2021, sebaran tambang batu bara berada di angka 1.226
@@ -489,12 +768,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12649120/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12649120/?utm_source=embed&utm_campaign=visualisation/12649120"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Namun, di tahun 2020 kedua perusahaan tersebut sama-sama
@@ -551,12 +858,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12654384/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12654384/?utm_source=embed&utm_campaign=visualisation/12654384"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Hingga kini, perusahaan otomotif yang berhasil menjual harga
@@ -597,12 +932,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12696488/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12696488/?utm_source=embed&utm_campaign=visualisation/12696488"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Dalam konferensi pers yang disiarkan langsung pada kanal youtube
@@ -635,12 +998,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12697892/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12697892/?utm_source=embed&utm_campaign=visualisation/12697892"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Di tahun 2020, Indonesia melahirkan angka produksi nikel
@@ -653,12 +1044,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12697929/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12697929/?utm_source=embed&utm_campaign=visualisation/12697929"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 INSG (International Nickel Study Group) dan NRCan (Natural
@@ -670,12 +1089,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/story/1819254/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/1819254/?utm_source=embed&utm_campaign=visualisation/1819254"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Sebaran tambang nikel di Indonesia bisa dikatakan cukup banyak.
@@ -700,12 +1147,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12698054/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12698054/?utm_source=embed&utm_campaign=visualisation/12698054"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Paragraph>
                 Data-data di atas melahirkan konklusi bahwa Indonesia berhasil
@@ -757,12 +1232,40 @@ const Blog = () => {
                 <iframe
                   src="https://flo.uri.sh/visualisation/12674146/embed"
                   title="Interactive or visual content"
-                  class="flourish-embed-iframe"
-                  frameborder="0"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
                   scrolling="no"
                   style={{ width: "100%", height: "600px" }}
                   sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
                 ></iframe>
+                <div
+                  style={{
+                    width: "100%!",
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/12674146/?utm_source=embed&utm_campaign=visualisation/12674146"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={0}
+                      height={0}
+                    />{" "}
+                  </a>
+                </div>
               </Iframe>
               <Blockquote>
                 {`"Tentu eksplorasi nikel tak mungkin dihentikan begitu saja,
