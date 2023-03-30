@@ -19,16 +19,9 @@ const Content = ({ category, title, link, image }) => {
               {category}
             </p>
           </div>
-          <div className="w-full font-bold text-xl mt-6 px-6">{title}</div>
-        </div>
-      </div>
-      <div className="bg-gray-900 flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-        <div className="flex items-center justify-end">
-          <Link href={link}>
-            <p className=" text-xs md:text-sm text-gray-300 uppercase hover:text-white">
-              Selengkapnya {">>"}
-            </p>
-          </Link>
+          <div className="w-full font-bold text-xl mt-6 px-6 pb-10 text-gray-300 hover:text-white">
+            <Link href={link}>{title}</Link>
+          </div>
         </div>
       </div>
     </div>
