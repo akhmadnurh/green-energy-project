@@ -1177,7 +1177,11 @@ const Blog = () => {
                 kerap terjadi karena hal tersebut.
               </Paragraph>
               <Iframe>
-                <div className="bg-red-500 text-white w-full h-44">Image</div>
+                {/* <div className="bg-red-500 text-white w-full h-44">Image</div> */}
+                <iframe
+                  src="/static/map/index.html"
+                  style={{ width: "100%", height: "50vh" }}
+                ></iframe>
               </Iframe>
               <Paragraph>
                 Dalam waktu satu tahun ke belakang ada tiga perusahaan nikel
