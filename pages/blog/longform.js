@@ -1183,13 +1183,13 @@ const Blog = () => {
                   src="/static/map/index.html"
                   style={{
                     position: "absolute",
-                    height: "85vh",
+                    height: "100vh",
                     width: "100%",
                     left: 0,
                     overflow: "hidden",
                   }}
                 ></iframe>
-                <div style={{ height: "85vh" }}></div>
+                <div style={{ height: "100vh" }}></div>
               </Iframe>
               <Paragraph>
                 Dalam waktu satu tahun ke belakang ada tiga perusahaan nikel
