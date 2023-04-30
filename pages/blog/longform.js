@@ -1176,12 +1176,20 @@ const Blog = () => {
                 permasalahan dan konflik agraria hingga kerusakan lingkungan
                 kerap terjadi karena hal tersebut.
               </Paragraph>
+
               <Iframe>
                 {/* <div className="bg-red-500 text-white w-full h-44">Image</div> */}
                 <iframe
                   src="/static/map/index.html"
-                  style={{ width: "100%", height: "50vh" }}
+                  style={{
+                    position: "absolute",
+                    height: "85vh",
+                    width: "100%",
+                    left: 0,
+                    overflow: "hidden",
+                  }}
                 ></iframe>
+                <div style={{ height: "85vh" }}></div>
               </Iframe>
               <Paragraph>
                 Dalam waktu satu tahun ke belakang ada tiga perusahaan nikel
