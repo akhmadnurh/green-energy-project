@@ -17,7 +17,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<center><h2>Sengkarut Tambang Nikel Indonesia</h2>Sebagai negara penghasil nikel yang tinggi, berbagai perusahaan nikel dalam dan luar negeri terus melakukan eksplorasi besar-besaran. Namun, banyak permasalahan dan aksi dari pihak tambang yang melanggar aturan tata kelola.</center>',
+            description: '<center><h1>Sengkarut Tambang Nikel Indonesia</h1></center><br><center><h3>Sebagai negara penghasil nikel yang tinggi, berbagai perusahaan nikel dalam dan luar negeri terus melakukan eksplorasi besar-besaran. Namun, banyak permasalahan dan aksi dari pihak tambang yang melanggar aturan tata kelola dan menimbulkan konflik agraria.</h3></center>',
             location: {
                 center: [112.93830, -2.18544],
                 zoom: 5.41,
@@ -46,7 +46,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2>PT. Trimegah Bangun Persada</h2>Lokasi: Pulau Obi, Provinsi Maluku Utara<br>Dugaan Pelanggaran:<br><ul><li>Penggusuran Tanah Warga, PenggunaanTanah Sengketa</ul></li>',
+            description: '<h2>PT. Trimegah Bangun Persada</h2><h3>Lokasi: Pulau Obi, Provinsi Maluku Utara<br>Dugaan Pelanggaran:<br><ul><li>Penggusuran Tanah Warga</ul></li><ul><li>PenggunaanTanah Sengketa</ul></li></h3>',
             location: {
                 center: [127.42402, -1.53821],
                 zoom: 12.58,
@@ -79,7 +79,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2> PT. Weda Bay Nikel</h2>Lokasi: Halmahera Tengah, Provinsi Maluku Utara <br>Dugaan Pelanggaran:<br><ul><li>Kriminalisasi Masyarakat, Pembebasan Lahan semena-mena, Mencemari laut dan udara</li></ul>',
+            description: '<h2> PT. Weda Bay Nikel</h2><h3>Lokasi: Halmahera Tengah, Provinsi Maluku Utara <br>Dugaan Pelanggaran:<br><ul><li>Kriminalisasi Masyarakat</li></ul> <ul><li>Pembebasan Lahan semena-mena</li></ul> <ul><li>Mencemari laut dan udara</li></ul></h3>',
             location: {
                 center: [127.98544, 0.47825],
                 zoom: 13.09,
@@ -112,7 +112,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2>PT. Gema Kreasi Perdana</h2>Lokasi: Kepulauan Konawe, Sulawesi Tenggara<br>Dugaan Pelanggaran:<br><ul><li>Penerobosan lahan warga dan kriminalisasi masyarakat</ul></li>',
+            description: '<h2>PT. Gema Kreasi Perdana</h2><h3>Lokasi: Kepulauan Konawe, Sulawesi Tenggara<br>Dugaan Pelanggaran:<br><ul><li>Penerobosan lahan warga dan kriminalisasi masyarakat</ul></li></h3>',
             location: {
                 center: [123.10207, -4.25449],
                 zoom: 14.78,

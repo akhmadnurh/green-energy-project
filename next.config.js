@@ -7,7 +7,7 @@ const nextConfig = {
     return [
       {
         source: "/blog/newsgame",
-        destination: "/static/newsgame.html",
+        destination: "/static/ProjectNirwana_%20Re-Nusantara.html",
       },
     ];
   },

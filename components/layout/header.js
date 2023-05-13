@@ -51,12 +51,6 @@ const Header = () => {
             >
               Tentang Kami
             </a>
-            <a
-              href="/contact"
-              className="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white"
-            >
-              Kontak
-            </a>
           </div>
         </div>
       </nav>

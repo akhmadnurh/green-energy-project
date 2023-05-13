@@ -7,14 +7,22 @@
         <title>Sengkarut Tambang Nikel</title>
         <link rel="icon" type="image/x-icon"
             href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
-        <link rel="stylesheet" href="/static/map/assets/css/main.css">
-        <link rel="stylesheet" href="/static/map/assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
         <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
         <script src="https://unpkg.com/scrollama"></script>
         <style>
             /* language */
+            html {
+                scrollbar-width: none;
+            }
+
+            body::-webkit-scrollbar {
+                display: none;
+            }
+
             .language {
                 cursor: pointer;
             }
@@ -72,7 +80,7 @@
         </div>
         <div id="story"></div>
 
-        <script src="/static/map/assets/js/config.js"></script>
+        <script src="assets/js/config.js"></script>
         <script>
             var layerTypes = {
                 'fill': ['fill-opacity'],

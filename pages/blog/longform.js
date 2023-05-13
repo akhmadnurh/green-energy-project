@@ -1,14 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+
 import Paragraph from "../../components/blog/paragraph";
-import Iframe from "../../components/blog/iframe";
+// import Iframe from "../../components/blog/iframe";
 import Title from "../../components/blog/title";
 import Divider from "../../components/blog/divider";
 import Blockquote from "../../components/blog/blockquote";
 import Footer from "../../components/layout/footer";
 import Header from "../../components/layout/header";
+import dynamic from "next/dynamic";
 
+const Iframe = dynamic(() => import("../../components/blog/iframe"));
 const Blog = () => {
   return (
     <>
@@ -287,22 +290,88 @@ const Blog = () => {
                 listrik kesayangan dengan kapasitas terpasang paling besar.
                 Kapasitas terpasang PLTU di tahun 2017 berada di angka 26.733,07
                 megawatt dan terus melonjak setiap tahunnya hingga berada di
-                angka 32.705,36 megawatt.
+                angka 32.705,36 megawatt. Angka-angka di atas cukup membuktikan
+                bahwa Indonesia masih nyaman dalam pelukan PLTU dan sangat
+                tergila-gila dengan energi kotor untuk memasok aliran listrik
+                negara sampai begah dibuatnya.
               </Paragraph>
               <Paragraph>
-                Angka-angka di atas cukup membuktikan bahwa Indonesia masih
-                nyaman dalam pelukan PLTU dan sangat tergila-gila dengan energi
-                kotor untuk memasok aliran listrik negara sampai begah
-                dibuatnya.
+                Padahal menurut Dr. Rachmawan Budiarto, S.T., M.T. yang
+                merupakan seorang Peneliti Energi dan Dosen Department of
+                Nuclear Engineering and Engineering Physics Universitas Gadjah
+                Mada masih banyak sekali teknologi pengembangan pembangkit
+                listrik yang bahkan belum tersentuh di Indonesia yang
+                notabenenya memiliki banyak keunggulan.
               </Paragraph>
-
+              <Blockquote>
+                “Wah semuanya masih terbuka lebar ya. Luar biasa. Bahkan yang
+                dianggap banyak orang teknologi mature, matang, tidak bisa
+                dikembangkan lagi, air misalnya. PLTA itu luar biasa. Masih
+                banyak ruang inovasi yang berkembang, yang masih belum
+                diimplementasi. Bahkan di PLTA, kita di PLTA ini agak berkurang
+                perhatiannya ya. Terserap dengan berbagai macam hiruk pikuk
+                energi terbarukan yang lain. Tapi itu bagus kok. Dari sisi lain
+                itu bagus kok. Di satu sisi bagus. Tapi di satu sisi saya ambil
+                contoh PLTA. Kalau kita menyebutkan dengan istilah teknisnya ya,
+                PLTA heat rendah, ultra low heat. Kemudian pump storage yang
+                bukan konvensional. Pump storage yang inovatif, yang storagenya
+                itu bermacam-macam. Bisa pakai seperti kantung. Bukan hanya
+                danau tapi bisa semacam kantung besar dan seterusnya. Nah, itu
+                masih tersedia luar biasa. Jadi turbin yang masih bisa kita
+                eksplorasi itu turbin low heat dan seterusnya. Apalagi yang
+                lain. Dan misalnya pembangkit listrik tenaga surya. Kita
+                nampaknya hanya berkutat di photovoltaic. Tapi kita masih bisa
+                masuk ke pembangkit listrik surya yang solar thermal power
+                plant. Itu belum. Belum dijamah. Jadi secara teknik photovoltaic
+                itu tidak memanfaatkan panas, bukan memanfaatkan suhunya. Yang
+                memanfaatkan suhunya itu teknologi lain, Solar power plant. Wah
+                itu belum. Kita belum masuk kesana. Turbin angin misalnya.
+                Turbin angin yang belum di eksplorasi itu vertica assist turbine
+                dan juga turbin angin dengan kecepatan angin rendah sampai
+                menengah ya. Beda dengan Eropa utara yang produktivitas atau
+                sangat banyak inovasi dengan kecepatan angin yang tinggi”,
+                jelasnya.
+              </Blockquote>
+              <Paragraph>
+                Menariknya, kami juga bertanya kepada Didiet Haryo Wicaksono
+                selaku Climate and Energy Team Leader Greenpeace Indonesia
+                perihal apakah benar bahwa energi baru memang sebegitu mahalnya
+                seperti yang selama ini sering dinarasikan. Menurutnya, fakta
+                bahwa energi baru terbarukan memang cenderung mahal adalah
+                benar, tetapi jika dibandingkan dengan energi kotor yang
+                dilabeli murah dengan segudang nilai eksternalitasnya seperti
+                dampak ke lingkungan hingga masyarakat, nominal mahal untuk
+                energi baru terbarukan cenderung lebih rendah.
+              </Paragraph>
+              <Blockquote>
+                “Kalau pemerintah melihat hanya melihat kata murah dari angka
+                tersebut atau narasi tersebut yang digunakan ke masyarakat, itu
+                betul. Tapi kita nggak boleh lupa murah di sini tidak hanya
+                berkisaran antara harga jual beli, murah di sini kita harus
+                masukkan angka eksternalitas. Apa itu angka eksternalitas?
+                Dampak lingkungan, dampak kesehatan, dan hilangnya mata
+                pencaharian. Kalau angka tersebut dimasukkan ke angka harga jual
+                maka angka yang harus dibeli dari energi kotor itu akan sangat
+                jauh jauh lebih tinggi. Karena biaya bpjs-nya masyarakat harus
+                ditanggung misalnya masyarakat yang kehilangan mata
+                pencahariannya harus diberikan mata pencaharian baru, itu satu.
+                Yang kedua besaran lahan mungkin kalau kita ambil contoh di
+                batang ada PLTU untuk menghasilkan 2000 megawat dia hanya
+                membutuhkan 226 hektar lahan. Apakah jika 226 hektar lahan
+                tersebut kita Ubah menjadi panel surya mampu menghasilkan 2000
+                megawatt? Jawabannya tidak. 2000 megawatt akan memberikan lahan
+                lebih besar dari 226 hektare, tapi enggak boleh lupa dari 2000
+                megawatt PLTU Berapa besar lubang tambang atau konsesi tambang
+                yang dibutuhkan untuk menghidupi PLTU tersebut ? Kalau angka
+                besaran lahan tersebut ditambah dengan PLTU tersebut maka, 2000
+                megawatt tidak akan membutuhkan besaran lahan sebesar PLTU dan
+                konsesi tambang seperti itu.”, tuturnya.
+              </Blockquote>
               <Divider />
-              <Title>
-                Strategi Tukar Guling Penggunaan Energi, Habis NDC Terbitlah
-                Roadmap ESDM
-              </Title>
+              <Title>Menguliti Gagasan Roadmap Net Zero Emission</Title>
               <Paragraph>
-                Pemerintah Indonesia mencanangkan strategi menuju Net Zero
+                Untuk beralih ke energi bersih dan mengurangi emisi karbon,
+                pemerintah Indonesia mencanangkan strategi menuju Net Zero
                 Emissions di tahun 2060. Demi tercapainya rencana tersebut,
                 Kementerian ESDM (Energi dan Sumber Daya Mineral) merilis
                 proyeksi dan road map atau peta jalan yang akan memberikan
@@ -376,6 +445,79 @@ const Blog = () => {
                   Konservasi Energi ESDM Qatro Romandhi)
                 </span>
               </Blockquote>
+              <Paragraph>
+                Pada 3 April 2023, kami telah melakukan wawancara virtual dengan
+                Qatro Romandhi selaku Koordinator Penyiapan Program Konservasi
+                Energi Kementerian ESDM. Dalam ruang zoom tersebut, Qatro tak
+                hadir sendiri. Ia hadir bersama dengan Andi Luxbinatur selaku
+                analis konservasi energi, Robi Kurniawan selaku staf Direktorat
+                Konservasi ESDM dan Haris Askari yang sama sekali tak bersuara
+                saat wawancara itu berlangsung kecuali saat perkenalan. Meski
+                hadir dalam ruang virtual tersebut, Qatro sedang tidak bisa
+                berbicara sampai akhir waktu wawancara kami lantaran sedang
+                melakukan rapat.
+              </Paragraph>
+              <Paragraph>
+                Kami bertanya perihal bagaimana langkah ESDM untuk bisa
+                secepatnya melakukan tukar guling penggunaan energi kotor ke
+                energi bersih. Robi menjelaskan bahwa akan ada beberapa negara
+                maju yang akan membantu untuk melakukan early retirement pada
+                PLTU. Program tersebut akan mendapatkan bantuan dana dari IPG
+                (International Partner Group) yang jumlahnya diperkirakan akan
+                mencapai 20 miliar dolar dan akan dipergunakan untuk melakukan
+                optimalisasi early retirement dari beberapa PLTU untuk bisa
+                konsisten dengan cita-cita 34 persen bauran energi baru
+                terbarukan di tahun 2030.
+              </Paragraph>
+              <Paragraph>
+                Sementara itu, Andi Luxbinatur selaku Analis Konservasi Energi
+                menambahkan jawaban Robi. Menurutnya, saat ini PLTS tanpa
+                baterai sudah punya harga yang terbilang murah. Namun umumnya
+                PLTS belum mampu memenuhi target TKDN (Tingkat Komponen Dalam
+                Negeri) yang diharuskan mencapai 40 persen.
+              </Paragraph>
+              <Blockquote>
+                “PLTS tanpa baterai saat ini harganya sudah di bawah Rp1.000 per
+                KWH, sudah di angka 900-an lah 900 rupiah per KWH.
+                Permasalahannya adalah kalau untuk PLTS ini kami belum bisa,
+                bukan kami ya, kita di Indonesia belum bisa untuk memenuhi
+                target tkdn PLTS yang sebesar 40% tanpa adanya monopoli. Mungkin
+                itu tambahannya dari saya terima kasih” tambah Andi sore itu.
+              </Blockquote>
+              <Paragraph>
+                Sementara itu, Didiet merasa regulasi PLTS terlalu menyulitkan
+                di tengah kondisi oversupply listrik Indonesia. PLTS yang
+                dinilai bisa memiliki nilai ekonomis alih-alih menyelamatkan
+                bumi justru diberikan regulasi pembatasan akibat oversupply
+                listrik yang tetap harus diserap.
+              </Paragraph>
+              <Blockquote>
+                “Pertama konsumen yang tadinya melirik ini sebagai peluang untuk
+                mereka lebih hemat secara keekonomian, peluang untuk mereka
+                misalnya merasa ini bisa jadi jalan bagi mereka untuk
+                menyelamatkan lingkungan, itu (pembatasan oleh PLN) membuat
+                mereka menjadi mikir dua kali. Karena ROA-nya jadi tidak masuk
+                akal. Efeknya apa? Efeknya industri-industri yang sebelumnya
+                menopang untuk pembangunan pembangkit-pembangkit skala rumah ini
+                pun terkena imbasnya. Banyak sekali industri-industri yang
+                sebenarnya menopang untuk pengembangan energi terbarukan
+                akhirnya gulung tikar karena akhirnya tidak ada peminatnya lagi.
+                Dan ini diakibatkan oleh kebijakannya PLN. Karena dia tidak mau
+                semakin banyak orang yang memproduksi listrik dari tenaga surya.
+                Karena efeknya dia harus membayar lebih besar oversupply yang
+                ada di PLN yang ada di jaringan listrik mereka.”, pungkasnya.
+              </Blockquote>
+              <Paragraph>
+                Regulasi yang dimaksudkan oleh Didiet disini adalah regulasi PLN
+                yang membatasi produksi listrik PLTS yang hanya berkisar 10 - 15
+                persen dari total daya yang terpasang oleh PLN. Atau
+                gamblangnya, hanya akan ada sedikit penghematan biaya listrik
+                pengguna PLTS dikarenakan hanya bisa menggunakan 10 - 16 persen
+                total daya terpasang dari PLN. Hal tersebut yang membuat banyak
+                masyarakat dan pelaku usaha berfikir dua kali untuk menggunakan
+                PLTS, alat yang tak murah dan penghematan yang tak seberapa
+                pula.
+              </Paragraph>
               <Divider />
               <Title>
                 Menyoal Adiksi Berat Indonesia Terhadap Energi Kotor
@@ -899,14 +1041,31 @@ const Blog = () => {
                 di angka 300 juta rupiah ke bawah karena sejalan dengan PDB per
                 kapita Indonesia.
               </Paragraph>
+              <Paragraph>
+                Sementara ketika ditanyakan perihal nasib masyarakat yang kurang
+                mampu untuk beralih ke kendaraan listrik. Robi menjelaskan bahwa
+                yang menyebabkan tingginya harga tersebut adalah baterai, untuk
+                itu akan ada insentif dalam pembelian kendaraan listrik baik
+                roda dua maupun empat.
+              </Paragraph>
               <Blockquote>
-                {`""`}
-                <span className="block font-bold mt-2">
-                  Wawancara Gaikindo Daya Beli 2023 - Langkah Pemerintah Dorong
-                  Penggunaan Kendaraan Listrik (Shodiq Wicaksono - Ketua Bidang
-                  V Teknologi Otomotif Masa Depan Gaikindo) - Qatro Romandhi
-                </span>
+                “Kalau lihat komposisinya itu kan kurang lebih baterainya. Ya
+                baterainya yang harganya menyebabkan Harga jual kendaraan
+                listrik itu telah lebih tinggi nah itu yang kemudian dorong oleh
+                pemerintah dengan memberikan insentif ya. Termasuk di kendaraan
+                motor roda dua kendaraan roda empat. Nah ini yang kemudian
+                dilakukan pengembangan oleh pemerintah yang artinya pemerintah
+                memberikan insentif untuk kendaraan untuk baterainya gitu-gitu
+                ya.” tuturnya.
               </Blockquote>
+              {/* <Paragraph>
+                Dalam konferensi pers yang disiarkan langsung pada kanal youtube
+                Info GATRIK pada 18 Januari 2022, bisa disimpulkan bahwa sebaran
+                SPKLU dan SPBKLU secara timpang didominasi oleh wilayah DKI
+                Jakarta dengan total 101 SPKLU dan 217 SPBKLU. Dapat disimpulkan
+                juga bahwa jumlah SPKLU dan SPBKLU di wilayah Pulau Jawa masih
+                mendominasi..
+              </Paragraph> */}
               <Paragraph>
                 Tentu untuk mendorong pertumbuhan penggunaan kendaraan listrik,
                 fasilitas SPKLU (Stasiun Pengisian Kendaraan Listrik Umum) dan
@@ -960,14 +1119,71 @@ const Blog = () => {
                 juga bahwa jumlah SPKLU dan SPBKLU di wilayah Pulau Jawa masih
                 mendominasi..
               </Paragraph>
+              <Paragraph>
+                Tentu untuk mendorong peralihan menuju kendaraan listrik secepat
+                mungkin perlu dilakukan pemerataan sebaran SPKLU dan SPBKLU di
+                seluruh wilayah Indonesia. Menurut Andi saat ini SPKLU kini
+                sudah tersedia di seluruh kantor PLN UP3 Provinsi.
+              </Paragraph>
               <Blockquote>
-                {`"Tentu untuk mendorong peralihan menuju kendaraan listrik
-                secepat mungkin perlu dilakukan pemerataan sebaran SPKLU dan
-                SPBKLU di seluruh wilayah Indonesia."`}
-                <span className="block font-bold mt-2">
-                  Wawancara Gatrik Langkah Mendorong Pertumbuhan SPKLU dan
-                  SPBKLU- (DIRJEN KETENAGALISTRIKAN ESDM Qatro Romandhi)
-                </span>
+                “Sebenarnya untuk SPKLU itu untuk seluruh kantor UP3 Provinsi
+                PLN sudah ada SPKLU. Gak perlu khawatir, untuk UP3 di kota-kota
+                besar sudah ada. Bahkan saya sempat juga nengokin SPKLU yang ada
+                di Mataram Lombok sana di kantor UP3 itu juga sudah ada, artinya
+                untuk penggunaan lingkup dalam kota terutama kota-kota besar itu
+                sudah hadir.” ungkapnya.
+              </Blockquote>
+              <Paragraph>
+                Untuk mempercepat masyarakat agar hijrah menuju kendaraan
+                listrik, Robi juga melanjutkan bahwa akan ada banyak cara
+                meningkatkan minat masyarakat untuk segera beralih menuju
+                kendaraan listrik. Mulai dari inisiasi SPKLU, insentif
+                perpajakan, komponen perpajakan yang dilonggarkan hingga anti
+                ganjil genap.
+              </Paragraph>
+              <Blockquote>
+                “Kemudian juga infrastrukturnya dengan menginisiasi beberapa
+                spklu ya. Kemudian dari sisi insentif perpajakan dan sejumlah
+                komponen pajak yang kemudian dilonggarkan untuk kendaraan
+                listrik termasuk juga tadi yang sudah di highlight oleh Mas
+                Andi, jadi tidak terkena ganjil genap ya terus kemudian ada juga
+                Kemudian beberapa fasilitas lain yang diberikan oleh pemerintah
+                untuk mendorong tadi ya mendorong beberapa variabel yang dapat
+                mempengaruhi minat masyarakat untuk mengadopsi kendaraan
+                listrik”, katanya.
+              </Blockquote>
+              <Paragraph>
+                Sementara itu, menurut Didiet proses realisasi kendaraan listrik
+                harusnya lebih difokuskan untuk kendaraan publik. Pendapatnya,
+                jika memang realisasi kendaraan listrik pribadi masih
+                menggunakan listrik dari PLTU hasilnya akan setali tiga uang.
+              </Paragraph>
+              <Blockquote>
+                “Nah ini yang sangat berbahaya sebenarnya, yang perlu kita
+                lakukan, yang ingin Greenpeace lakukan adalah mendorong
+                peralihan kendaraan listrik ini lebih ke basis kendaraan publik
+                atau kendaraan massal. Karena dengan demikian pertama, dampak
+                lingkungan yang dihasilkan baik itu langsung maupun tidak
+                langsung akan menjadi lebih sedikit dari konsep yang pribadi.
+                Tidak hanya di Indonesia sebenarnya di seluruh dunia kita
+                mendorong hal ini, jadi beralih saja tidak cukup kalau kendaraan
+                tersebut masih bersifat perorangan karena jumlahnya akan terus
+                bertambah, artinya jika jumlah bertambah,artinya jika jumlahnya
+                terus bertambah, di hulunya terus dikeruk, selesai digunakan
+                akan jadi limbah, dan limbahnya akan jadi masalah baru untuk
+                kita kedepannya. jadi peralihan atau transisi kendaraan ini tak
+                akan menimbulkan atau mem memberikan ruang perbedaan yang cukup
+                signifikan misalnya karena sifatnya tetap industri. Lalu
+                permasalahan yang lain yang ditimbulkan juga didorong
+                menggunakan kendaraan listrik tidak lain dan tidak bukan PLN,
+                negara perlu konsumsi listriknya ada yang menyerap. Cara paling
+                sederhana ya itu didorong masyarakatnya beralih ke kompor
+                listrik misalnya, beralih ke kendaraan listrik yang dikasih
+                subsidi sangat besar misalnya. Jadi kalau sumber energi yang
+                digunakan untuk menyalakan kendaraan listrik itu dari PLTU maka
+                gak ada perbedaan yang signifikan sebenarnya terhadap
+                pengurangan emisi itu sendiri. Yang ada, permasalahan baru yang
+                ditimbulkan.” tuturnya lengkap.
               </Blockquote>
               <Divider />
               <Title>Nikel, Mobil Listrik dan Kesengsaraan</Title>
@@ -1114,11 +1330,11 @@ const Blog = () => {
                 izin sebanyak 4. Sementara izin, IUP OP dengan total izin
                 sebanyak 328 dan KK OP sebanyak 6 izin.
               </Paragraph>
-              <Paragraph>
+              {/* <Paragraph>
                 <span className="font-bold uppercase">
                   PENJELASAN JENIS IZIN
                 </span>
-              </Paragraph>
+              </Paragraph> */}
               <Paragraph>
                 Ekspor nikel Indonesia bisa dibilang juga cukup sombong, di
                 tahun 2021 Indonesia memiliki volume ekspor nikel di angka
@@ -1188,6 +1404,7 @@ const Blog = () => {
                     left: 0,
                     overflow: "hidden",
                   }}
+                  frameBorder={0}
                 ></iframe>
                 <div style={{ height: "100vh" }}></div>
               </Iframe>
@@ -1259,15 +1476,94 @@ const Blog = () => {
                   </a>
                 </div>
               </Iframe>
-              <Blockquote>
-                {`"Tentu eksplorasi nikel tak mungkin dihentikan begitu saja,
+              <Paragraph>
+                Tentu eksplorasi nikel tak mungkin dihentikan begitu saja,
                 permasalahan bak kaset lama ini perlu sebuah solusi, yakni
-                dengan menetapkan ketegasan tata kelola yang semakin baik."`}
-                <span>
-                  -Wawancara ESDM- (Ridwan Jamaludin) -Wawancara Ahli Energi
-                  Terbarukan UGM - (Dr. Rachmawan Budiarto, S.T., M.T., G.P.)
+                dengan menetapkan ketegasan tata kelola yang semakin baik.
+              </Paragraph>
+              <Paragraph>
+                Hingga tulisan ini dipublikasi, kami telah berupaya menghubungi
+                pihak Direktorat Jenderal Minerba Kementerian ESDM dengan
+                segudang pertanyaan yang telah disiapkan perihal ancaman konflik
+                agraria dalam tahap transisi energi Indonesia. Pesan kami sempat
+                diberi respons oleh Ridwan Djamaluddin selaku Direktur Minerba
+                ESDM, namun kami tak kunjung mendapat balasan lebih lanjut.
+              </Paragraph>
+              <Paragraph>
+                <span className="font-bold uppercase">
+                  Solusi di Balik Ketimpangan dan Simalakama
                 </span>
+              </Paragraph>
+              <Paragraph>
+                Di antara berbagai celah dan kecacatan kondisi transisi energi
+                Indonesia sebagai negara yang tak lagi berumur belasan tahun,
+                Rachmawan Budiarto memaparkan harusnya Indonesia bisa belajar
+                dari kejadian dan inovasi yang telah lalu agar transisi energi
+                ini tak menjadi kebijakan yang gagal. Ia berharap ada kejelasan
+                lebih perihal transisi energi, tidak dilakukan secara terburu
+                buru, berusaha untuk konsisten tanpa melewatkan inovasi dan
+                bersifat inklusif.
+              </Paragraph>
+              <Blockquote>
+                “Satu tadi jelas arahnya, dua jangan terburu buru, tiga kalau
+                bisa konsisten. Mengapa saya katakan kalau bisa? Karena
+                kadang-kadang kata konsisten itu menutup pintu bagi modifikasi.
+                Gak baik juga, kalau kita katakan konsisten tapi kemudian
+                katakanlah dua atau tiga tahun lagi ada perubahan. Wah ini gak
+                konsisten, gak juga gitu. Karena ada perubahan yang memang perlu
+                harus direspons, saya yakin nanti EV akan ada banyak adjustment,
+                fotovoltaik akan ada banyak adjustment, nah itu jangan buru buru
+                dikatakan tidak konsisten. Yang keempat karena konsistensi kita
+                dinamis, maka harus dilibatkan semua, antara pemerintah,
+                pebisnis dan komunitas. Jangan ditinggal, karena masing masing
+                saling mengisi. Contoh yang sudah gamblang, pemerintah tak akan
+                punya duit yang cukup untuk memenuhi target dari transisi
+                energi, dari target akselerasi peran energi terbarukan maka
+                duitnya dari pebisnis, dan jangan lupa dorongan agar memenuhi
+                target itu datangnya juga dari masyarakat. Misal masyarakat
+                nanti moga-moga makin terbuka lebar untuk bisa pasang
+                fotovoltaik dan berbisnis dengan BUMN izin menjadi lebih jelas
+                dan lebih pendek dan seterusnya. Dalam poin ini, ada banyak
+                inovasi dan opsi regulasi yang belum kita buka. Contoh yang
+                belum kita buka sekarang kan kita gak boleh berjualan listrik ke
+                tetangga kita, siapa tau loh nanti kecamatan B bisa langsung
+                berjualan ke kecamatan B kabelnya gimana? Kabelnya nyewa PLN,
+                “oh gak mungkin itu”, jangan bilang gak mungkin dulu, dengan
+                teknologi itu serba mungkin, dan itu sangat dimungkinkan. Jadi
+                itu, yang satu jelas arahnya, yang kedua tidak terburu buru,
+                ketiga konsisten dynamic ya. Keempat inklusif, harus dilibatkan
+                semua itu. Satu saja gak terpenuhi, kayaknya gak akan optimal
+                jalannya transisi energi.”
               </Blockquote>
+              <Paragraph>
+                Perihal realistis atau tidaknya, menurut Didiet dengan parahnya
+                kondisi Indonesia saat ini yang tak hanya meliputi rusaknya
+                lingkungan dan adiksi energi kotor, namun juga kebijakan dan
+                regulasi yang kurang berpihak, transisi energi hanya akan jadi
+                mimpi. Namun, hal tersebut tetap harus diupayakan bagaimanapun
+                caranya.
+              </Paragraph>
+              <Blockquote>
+                “Bicara antara mimpi dan realita, realitanya dengan dengan
+                kondisi saat ini kelas itu hanya akan jadi mimpi. tapi kalau
+                kita bicara apa namanya keharusan itu harus dilakukan
+                bagaimanapun caranya. Karena suhu yang terus naik ini dampaknya
+                tidak hanya terhadap orang-orang yang menolak atau orang-orang
+                yang ingin melakukan transisi energi tapi dampaknya juga ke
+                orang-orang yang tidak ingin melakukan transisi energi. Climate
+                catastrophic itu tidak akan memilih apakah Anda pengusaha
+                batubara atau Anda aktivis lingkungan. Semuanya akan kena.
+                Mungkin itu titik tekan yang paling masuk akal saat ini apakah
+                naluri kita mau mendengarnya atau enggak siapapun itu.”
+              </Blockquote>
+              <Paragraph>
+                Transisi energi menjadi sebuah janji yang harus dibayar tuntas.
+                Indonesia punya segudang celah dan kekurangan dalam memulai dan
+                menjalankan transisi energi. Meski akan menjadi sebuah jalan
+                yang berdarah-darah, transisi energi tetap harus dipenuhi rasa
+                optimistik sembari tak menutup mata dari kritik agar suhu bumi
+                terjaga dan umur bumi semakin panjang.
+              </Paragraph>
               {/* <!--/ Post Content--> */}
             </div>
           </div>
