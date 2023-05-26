@@ -46,9 +46,9 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/3 flex flex-col flex-grow flex-shrink bg-black text-white">
               <div className="flex flex-col h-full items-center justify-center  rounded-t rounded-b-none overflow-hidden shadow-lg text-center">
-                <div className="w-full text-white font-bold text-4xl px-6 mt-6 mb-3">
+                {/* <div className="w-full text-white font-bold text-4xl px-6 mt-6 mb-3">
                   <span className="text-green-500">Green</span> Energy Project
-                </div>
+                </div> */}
                 <p className=" text-xl px-6 mb-5 leading-normal">
                   Green Energy Project adalah sebuah website karya jurnalistik
                   demi pemenuhan tugas akhir Program Studi Manajemen Produksi

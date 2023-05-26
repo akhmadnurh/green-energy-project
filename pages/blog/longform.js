@@ -10,6 +10,8 @@ import Blockquote from "../../components/blog/blockquote";
 import Footer from "../../components/layout/footer";
 import Header from "../../components/layout/header";
 import dynamic from "next/dynamic";
+import "dayjs/locale/id";
+import dayjs from "dayjs";
 
 const Iframe = dynamic(() => import("../../components/blog/iframe"));
 const Blog = () => {
@@ -22,9 +24,22 @@ const Blog = () => {
           <h1 className="font-bold break-normal text-3xl md:text-5xl text-white">
             Manifestasi Pelik Transisi Energi
           </h1>
-          <p className="text-sm md:text-base mt-1 text-green-500 font-bold">
-            08 APRIL 2023{" "}
-          </p>
+          <div className="flex justify-center items-baseline gap-3">
+            <p className="text-sm md:text-base mt-1 text-green-500 font-bold">
+              Penulis
+            </p>
+            <div
+              style={{
+                width: "1px",
+                backgroundColor: "white",
+                display: "inline-block",
+                height: "16px",
+              }}
+            ></div>
+            <p className="text-white">
+              {dayjs().locale("id").format("DD MMMM YYYY")}
+            </p>
+          </div>
         </div>
 
         {/* <!--image--> */}
@@ -1489,12 +1504,13 @@ const Blog = () => {
                 diberi respons oleh Ridwan Djamaluddin selaku Direktur Minerba
                 ESDM, namun kami tak kunjung mendapat balasan lebih lanjut.
               </Paragraph>
+              {/* <Paragraph>
+
+              </Paragraph> */}
               <Paragraph>
-                <span className="font-bold uppercase">
+                <span className="font-bold  text-2xl mb-3 block">
                   Solusi di Balik Ketimpangan dan Simalakama
                 </span>
-              </Paragraph>
-              <Paragraph>
                 Di antara berbagai celah dan kecacatan kondisi transisi energi
                 Indonesia sebagai negara yang tak lagi berumur belasan tahun,
                 Rachmawan Budiarto memaparkan harusnya Indonesia bisa belajar

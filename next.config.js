@@ -1,7 +1,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["source.unsplash.com", "static.wixstatic.com"],
+    domains: [
+      "source.unsplash.com",
+      "static.wixstatic.com",
+      "banner2.cleanpng.com",
+    ],
   },
   async rewrites() {
     return [
