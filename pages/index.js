@@ -4,29 +4,13 @@ import Footer from "../components/layout/footer";
 import Header from "../components/layout/header";
 import Section from "../components/home/section";
 import Content from "../components/home/content";
+import Banner from "../components/home/banner";
 export default function Home() {
   return (
     <>
       <div className="bg-black font-sans leading-normal tracking-normal">
         {/* <!--Header--> */}
-        <div
-          className="w-full m-0 p-0 bg-cover bg-bottom h-[25vh] lg:h-[35vh]"
-          style={{
-            backgroundImage: "url('/images/bg.png')",
-            maxHeight: "660px",
-          }}
-        >
-          <div className="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
-            {/* <!--Title--> */}
-            <p className="text-white font-extrabold text-3xl md:text-5xl">
-              <span className="text-green-500">Green</span> Energy Project
-            </p>
-            <p className="text-xl md:text-2xl inline-block px-6 py-1 text-white mt-3">
-              Sebuah Karya Jurnalistik Tentang Transisi Energi.
-            </p>
-          </div>
-        </div>
-
+        <Banner />
         {/* Navbar */}
         <Header />
 
@@ -36,7 +20,7 @@ export default function Home() {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-2/3">
               <Image
-                src="https://static.wixstatic.com/media/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg/v1/fill/w_800,h_400,fp_0.61_0.28,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg"
+                src="https://media.discordapp.net/attachments/883371500026081281/1112428942436077568/cut5.png?width=1214&height=683"
                 className="h-full w-full shadow"
                 width={0}
                 height={0}
@@ -87,7 +71,7 @@ export default function Home() {
                   title={"Manifestasi Pelik Transisi Energi"}
                   link={"/blog/longform"}
                   image={
-                    "https://static.wixstatic.com/media/11062b_c636542739294badbb2e7e6503808d58~mv2.jpeg/v1/crop/x_155,y_0,w_5679,h_4543/fill/w_301,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Reading%20the%20Paper.jpeg"
+                    "https://media.discordapp.net/attachments/883371500026081281/1112346489230983278/ivo-lukacovic-IJTX8aDDMa0-unsplash_1.jpg?width=1055&height=683"
                   }
                 />
                 <Content
@@ -103,7 +87,7 @@ export default function Home() {
                   title={"Project Nirwana: Re-Nusantara"}
                   link={"/blog/newsgame"}
                   image={
-                    "https://static.wixstatic.com/media/11062b_95616609e0904c2c9d87f082b9f759ad~mv2.jpg/v1/crop/x_1119,y_0,w_5600,h_4480/fill/w_301,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Morning%20Coffee%20%26%20Paper.jpg"
+                    "https://media.discordapp.net/attachments/883371500026081281/1112346395370860554/THUMB_GAME.png?width=1214&height=683"
                   }
                 />
               </Section>

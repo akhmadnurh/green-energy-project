@@ -4,16 +4,19 @@ import Title from "../../components/blog/title";
 import Paragraph from "../../components/blog/paragraph";
 import Divider from "../../components/blog/divider";
 import Image from "next/image";
+import Banner from "../../components/home/banner";
+import Footer from "../../components/layout/footer";
 
 export default function AboutUs() {
   return (
     <>
+      <Banner />
       <Header />
       <div className="bg-black font-sans leading-normal tracking-normal py-4">
         <div className="container  max-w-5xl mx-auto">
           <div className="mx-0 sm:mx-6">
             <div
-              className="bg-gray-900 w-full p-8 md:p-24 mb-10 text-xl md:text-2xl  text-gray-300 leading-normal"
+              className="bg-gray-900 w-full p-8 md:p-24 mb-3 text-xl md:text-2xl  text-gray-300 leading-normal"
               style={{ fontFamily: ["Georgia", "serif"] }}
             >
               <div className="text-center">
@@ -72,9 +75,7 @@ export default function AboutUs() {
                 <div className="grid grid-cols-3 gap-10">
                   <div className=" flex flex-col gap-4 items-center">
                     <Image
-                      src={
-                        "https://banner2.cleanpng.com/20180621/wre/kisspng-indonesian-democratic-party-of-struggle-political-pdi-perjuangan-5b2b839f15cf56.0282214015295783990894.jpg"
-                      }
+                      src={"/images/user/Puja Pratama Ridwan.png"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -88,9 +89,7 @@ export default function AboutUs() {
                   </div>
                   <div className="flex flex-col gap-4 items-center">
                     <Image
-                      src={
-                        "https://banner2.cleanpng.com/20180621/wre/kisspng-indonesian-democratic-party-of-struggle-political-pdi-perjuangan-5b2b839f15cf56.0282214015295783990894.jpg"
-                      }
+                      src={"/images/user/Elisabeth Putri Mulia.jpg"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -104,9 +103,7 @@ export default function AboutUs() {
                   </div>
                   <div className="flex flex-col gap-4 items-center ">
                     <Image
-                      src={
-                        "https://banner2.cleanpng.com/20180621/wre/kisspng-indonesian-democratic-party-of-struggle-political-pdi-perjuangan-5b2b839f15cf56.0282214015295783990894.jpg"
-                      }
+                      src={"/images/user/Alfian Assauqiy Suryo Saputra.png"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -123,9 +120,7 @@ export default function AboutUs() {
                 <div className="grid grid-cols-2 gap-20 justify-items-center">
                   <div className="justify-self-end flex flex-col gap-4 items-center">
                     <Image
-                      src={
-                        "https://banner2.cleanpng.com/20180621/wre/kisspng-indonesian-democratic-party-of-struggle-political-pdi-perjuangan-5b2b839f15cf56.0282214015295783990894.jpg"
-                      }
+                      src={"/images/user/Arnand Rafif Athallah.jpg"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -139,9 +134,7 @@ export default function AboutUs() {
                   </div>
                   <div className="justify-self-start flex flex-col gap-4 items-center ">
                     <Image
-                      src={
-                        "https://banner2.cleanpng.com/20180621/wre/kisspng-indonesian-democratic-party-of-struggle-political-pdi-perjuangan-5b2b839f15cf56.0282214015295783990894.jpg"
-                      }
+                      src={"/images/user/Ikram Nazaruddin A.I.J.jpg"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -159,6 +152,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

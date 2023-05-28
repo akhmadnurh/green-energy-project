@@ -45,12 +45,12 @@ const Header = () => {
             >
               Home
             </Link>
-            <a
+            <Link
               href="/about-us"
               className="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white mr-4"
             >
               Tentang Kami
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
