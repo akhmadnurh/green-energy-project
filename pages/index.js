@@ -79,7 +79,7 @@ export default function Home() {
                   title={"Meneropong Mimpi Ramah Lingkungan Penuh Simalakama"}
                   link={"/blog/eksplanatori"}
                   image={
-                    "https://static.wixstatic.com/media/11062b_65ac6a4473e04cdc9f6295dc9fbb1c85~mv2.jpeg/v1/crop/x_618,y_0,w_3750,h_3000/fill/w_301,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/TV%20Reporter.jpeg"
+                    "https://media.discordapp.net/attachments/883371500026081281/1115341434489409587/X_11.png?width=1214&height=683"
                   }
                 />
                 <Content

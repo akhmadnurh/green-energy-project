@@ -89,7 +89,7 @@ export default function AboutUs() {
                   </div>
                   <div className="flex flex-col gap-4 items-center">
                     <Image
-                      src={"/images/user/Elisabeth Putri Mulia.jpg"}
+                      src={"/images/user/Elisabeth Putri Mulia.png"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -120,7 +120,7 @@ export default function AboutUs() {
                 <div className="grid grid-cols-2 gap-20 justify-items-center">
                   <div className="justify-self-end flex flex-col gap-4 items-center">
                     <Image
-                      src={"/images/user/Arnand Rafif Athallah.jpg"}
+                      src={"/images/user/Arnand Rafif Athallah.png"}
                       height={0}
                       width={0}
                       alt="banteng"
@@ -134,7 +134,7 @@ export default function AboutUs() {
                   </div>
                   <div className="justify-self-start flex flex-col gap-4 items-center ">
                     <Image
-                      src={"/images/user/Ikram Nazaruddin A.I.J.jpg"}
+                      src={"/images/user/Ikram Nazaruddin A.I.J.png"}
                       height={0}
                       width={0}
                       alt="banteng"

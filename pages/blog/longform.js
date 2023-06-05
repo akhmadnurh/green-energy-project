@@ -308,7 +308,7 @@ const Blog = () => {
                 angka 32.705,36 megawatt. Angka-angka di atas cukup membuktikan
                 bahwa Indonesia masih nyaman dalam pelukan PLTU dan sangat
                 tergila-gila dengan energi kotor untuk memasok aliran listrik
-                negara sampai begah dibuatnya.
+                negara.
               </Paragraph>
               <Paragraph>
                 Padahal menurut Dr. Rachmawan Budiarto, S.T., M.T. yang
@@ -798,8 +798,8 @@ const Blog = () => {
                 Indonesia tak nafsu konsumsi energi matahari dan angin hingga
                 benar-benar berada pada angka nol besar. Kondisi miris ini tak
                 cukup sampai disitu, peningkatan konsumsi dari sumber daya
-                energi bersih juga mengalami peningkatan secara lambat bak siput
-                yang berlari.
+                energi bersih juga mengalami peningkatan secara lambat bak jalan
+                siput.
               </Paragraph>
               <Iframe>
                 <iframe
