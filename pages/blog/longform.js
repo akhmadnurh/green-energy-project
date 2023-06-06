@@ -62,26 +62,74 @@ const Blog = () => {
               {/* <!--Post Content--> */}
               {/* <!--Lead Para--> */}
               <Paragraph>
-                Di November tahun 2021, Presiden Joko Widodo mengikrarkan
+                Tepat November tahun 2021, Presiden Joko Widodo mengikrarkan
                 komitmen nyata atas perubahan iklim yang terjadi di berbagai
-                belahan dunia. Setelah lampu hijau di Paris Agreement pada
-                Conference of Parties (COP) 21 pada 2015 lalu, setiap negara
-                yang menandatangani perjanjian tersebut kemudian menyusun
-                Nationally Determined Carbon (NDC) yang menjadi cetak biru dari
-                langkah-langkah dan komitmen setiap negara untuk menurunkan
-                emisi karbon.
-              </Paragraph>
-              <Paragraph>
-                Setahun setelahnya, pada COP 27 yang digelar di Mesir pada 2022
-                lalu, Wakil Presiden Ma’ruf Amin juga menyampaikan beberapa
-                langkah komitmen Indonesia untuk mengurangi emisi karbon di
+                belahan dunia di Conference of Parties (COP) 26 yang digelar di
+                Glasgow. Setahun setelahnya pada COP 27 yang digelar di Mesir
+                pada 2022 lalu, Wakil Presiden Ma’ruf Amin juga menyampaikan
+                beberapa komitmen Indonesia untuk mengurangi emisi karbon di
                 dunia.
               </Paragraph>
               <Paragraph>
-                Tak ayal, alasan Presiden Joko Widodo dan Wakil Presiden Ma’ruf
-                Amin menjadi banyak menjanjikan dan menunjukkan komitmen nyata
-                atas penurunan emisi karbon karena sadar akan “sumbangan” emisi
-                karbon Indonesia yang cukup banyak.
+                Pernyataan Joko Widodo dan Ma’ruf Amin tersebut tentu tak bisa
+                lepas dari komitmen Indonesia pada Paris Agreement dalam COP
+                ke-21 pada 2015 lalu. Pada perjanjian maha sakral untuk merawat
+                bumi tersebut, setiap negara yang menandatangani perjanjian
+                tersebut kemudian menyusun Nationally Determined Carbon (NDC)
+                yang menjadi cetak biru dari langkah-langkah dan komitmen setiap
+                negara untuk menurunkan emisi karbon.
+              </Paragraph>
+              <Paragraph>
+                Komitmen untuk menurunkan emisi karbon tersebut juga disertai
+                target untuk menghentikan kenaikan suhu bumi pada angka tepat
+                dua derajat saja. Dalam buku The Uninhabitable Earth karya David
+                Wallace-Wells yang juga ditulis setelah dirinya menguliti
+                beberapa jurnal penelitian dan melakukan wawancara kepada
+                beberapa pakar, kondisi dimana terjadi kenaikan suhu bumi yang
+                lebih dari dua derajat dapat diproyeksikan sebagai sebuah
+                bencana yang amat mengerikan.
+              </Paragraph>
+              <Paragraph>
+                Kenaikan suhu bumi dikatakan dapat menyebabkan bencana banjir,
+                kebakaran, kelaparan, kekurangan air, hingga tenggelamnya
+                beberapa bagian bumi lantaran mencairnya es di Artika. Dalam
+                tulisannya, es abadi Artika tercatat mengandung 1,8 triliun ton
+                karbon atau lebih dari dua kali lipat dari yang sekarang ada
+                pada atmosfer bumi. Yang artinya, jika es abadi Artika mencair
+                tentu akan ada 1,8 triliun ton karbon yang akan lepas ke
+                atmosfer serta berdampak parah pada kenaikan suhu yang semakin
+                menjadi.
+              </Paragraph>
+              <Paragraph>
+                Selain itu, dalam proyeksi Peter Wadhams yang juga dibahas David
+                Wallace, ada hal disebut dengan albedo effect. Es adalah benda
+                berwujud padat yang memantulkan cahaya matahari kembali ke
+                antariksa dan bukan menyerapnya. Yang artinya makin sedikit es,
+                makin banyak cahaya matahari yang terserap sebagai pemanasan
+                global.
+              </Paragraph>
+              <Paragraph>
+                Dalam The Uninhabitable Earth, David memproyeksikan bahwa dalam
+                pemanasan lima derajat saja banyak bagian dunia yang bakal tak
+                bisa didiami manusia. Dengan kenaikan suhu enam derajat, manusia
+                akan mustahil untuk bekerja fisik di luar ruangan pada musim
+                panas di Lembah Misisipi dan timur pegunungan Rocky Amerika
+                Serikat. Dengan kondisi tersebut, suhu di Bahrain akan memicu
+                hipotermia bahkan kepada orang yang sedang terlelap.
+              </Paragraph>
+              <Paragraph>
+                Jika peradaban saat ini tak mampu menghentikan emisi gas rumah
+                kaca, 5 persen seluruh penduduk dunia akan kebanjiran setiap
+                tahun pada tahun 2100. Sementara dalam kondisi yang sama Jakarta
+                akan diproyeksikan tenggelam seluruhnya pada 2050.
+              </Paragraph>
+              <Paragraph>
+                Tak ayal dengan seluruh proyeksi apokalips tersebut, Presiden
+                Joko Widodo dan Wakil Presiden Ma’ruf Amin menjadi banyak
+                menjanjikan dan menunjukkan komitmen nyata atas penurunan emisi
+                karbon karena sadar akan “sumbangan” emisi karbon Indonesia yang
+                cukup banyak meskipun beberapa di antaranya cukup kontradiktif
+                dengan realita.
               </Paragraph>
               <Iframe>
                 <iframe
@@ -122,12 +170,12 @@ const Blog = () => {
                 </div>
               </Iframe>
               <Paragraph>
-                Menurut data dari BP Statistical Energy Report 2022, Indonesia
-                menjadi negara peringkat sepuluh dari 93 negara perihal emisi
-                karbon hasil produksi energi. Laporan BP menunjukkan bahwa di
-                tahun 2021, emisi karbon yang dihasilkan dari produksi energi
-                berada di angka 572,5 juta ton. Angka tersebut cukup jangkung
-                sekaligus menyeramkan
+                Menurut data dari British Petroleum Statistical Energy Report
+                2022, Indonesia menjadi negara peringkat sepuluh dari 93 negara
+                produsen emisi karbon hasil produksi energi tertinggi di dunia.
+                Laporan BP menunjukkan bahwa di tahun 2021, emisi karbon yang
+                dihasilkan dari produksi energi Indonesia berada di angka 572,5
+                juta ton. Angka tersebut cukup jangkung sekaligus menyeramkan
               </Paragraph>
               <Iframe>
                 <iframe
@@ -176,7 +224,7 @@ const Blog = () => {
                 20,14 juta ton. Kini, angka tersebut sudah mencapai 572,47 juta
                 ton di tahun 2021. Bahkan pada tahun-tahun pasca Paris
                 Agreement, emisi karbon dari produksi energi Indonesia masih
-                membengkak perlahan..
+                membengkak perlahan.
               </Paragraph>
               <Divider />
               <Title>Penggunaan Energi Untuk Produksi Listrik Indonesia</Title>
@@ -231,13 +279,13 @@ const Blog = () => {
                 masing-masing berada di angka 6,76 dan 28,58 TWh.
               </Paragraph>
               <Paragraph>
-                Sementara di tahun 2021, produksi listrik dari sumber daya batu
-                bara semakin meningkat menjadi 189,96 TWh. Tak hanya itu,
-                Produksi listrik dari gas alam juga mengalami kenaikan menjadi
-                56,27 TWh. Meskipun demikian, produksi listrik dari EBT (Energi
-                Baru Terbarukan) juga naik menjadi 31,5 TWh dan Air menjadi 24,7
-                TWh. Sementara, terjadi sedikit penurunan produksi listrik dari
-                sumber daya minyak bumi.
+                Pada tahun 2021, produksi listrik dari sumber daya batu bara
+                semakin meningkat menjadi 189,96 TWh. Tak hanya itu, produksi
+                listrik dari gas alam juga mengalami kenaikan menjadi 56,27 TWh.
+                Meskipun demikian, produksi listrik dari EBT (Energi Baru
+                Terbarukan) juga naik menjadi 31,5 TWh dan Air menjadi 24,7 TWh.
+                Tercatat juga terjadi sedikit penurunan produksi listrik dari
+                sumber daya minyak bumi sebanyak -1,63 persen dari tahun 2020.
               </Paragraph>
               <Iframe>
                 <iframe
@@ -290,11 +338,10 @@ const Blog = () => {
                 Menariknya, PLTA (Pembangkit Listrik Tenaga Air) menjadi kuda
                 hitam dan berada pada urutan ketiga sebagai pembangkit listrik
                 dengan kapasitas terpasang paling tinggi dengan persentase di
-                angka 8,03 persen. Meskipun demikian, urutan di bawahnya tetap
-                diduduki oleh pembangkit listrik dengan energi kotor yakni PLTG
+                angka 8,03 persen. Urutan di bawahnya diduduki oleh PLTG
                 (Pembangkit Listrik Tenaga Gas) dengan persentase 7,18 persen.
                 Sayangnya, perbandingan pembangkit listrik dari energi bersih
-                dan kotor seperti langit dan bumi.
+                dan kotor masih cukup terlihat timpang.
               </Paragraph>
               <Paragraph>
                 Tentunya perbandingan dengan persentase masih belum cukup
@@ -348,15 +395,15 @@ const Blog = () => {
                 jelasnya.
               </Blockquote>
               <Paragraph>
-                Menariknya, kami juga bertanya kepada Didiet Haryo Wicaksono
-                selaku Climate and Energy Team Leader Greenpeace Indonesia
-                perihal apakah benar bahwa energi baru memang sebegitu mahalnya
-                seperti yang selama ini sering dinarasikan. Menurutnya, fakta
-                bahwa energi baru terbarukan memang cenderung mahal adalah
+                Menariknya, tim Green Energy Project juga bertanya kepada Didiet
+                Haryo Wicaksono selaku Climate and Energy Team Leader Greenpeace
+                Indonesia perihal apakah benar bahwa energi baru memang amat
+                mahal seperti yang selama ini sering dinarasikan. Menurutnya,
+                fakta bahwa energi baru terbarukan memang cenderung mahal adalah
                 benar, tetapi jika dibandingkan dengan energi kotor yang
                 dilabeli murah dengan segudang nilai eksternalitasnya seperti
                 dampak ke lingkungan hingga masyarakat, nominal mahal untuk
-                energi baru terbarukan cenderung lebih rendah.
+                energi baru terbarukan cenderung lebih rendah.{" "}
               </Paragraph>
               <Blockquote>
                 “Kalau pemerintah melihat hanya melihat kata murah dari angka
@@ -473,15 +520,15 @@ const Blog = () => {
                 melakukan rapat.
               </Paragraph>
               <Paragraph>
-                Kami bertanya perihal bagaimana langkah ESDM untuk bisa
-                secepatnya melakukan tukar guling penggunaan energi kotor ke
-                energi bersih. Robi menjelaskan bahwa akan ada beberapa negara
-                maju yang akan membantu untuk melakukan early retirement pada
-                PLTU. Program tersebut akan mendapatkan bantuan dana dari IPG
-                (International Partner Group) yang jumlahnya diperkirakan akan
-                mencapai 20 miliar dolar dan akan dipergunakan untuk melakukan
-                optimalisasi early retirement dari beberapa PLTU untuk bisa
-                konsisten dengan cita-cita 34 persen bauran energi baru
+                Tim Green Energy Project bertanya perihal bagaimana langkah ESDM
+                untuk bisa secepatnya melakukan tukar guling penggunaan energi
+                kotor ke energi bersih. Robi menjelaskan bahwa akan ada beberapa
+                negara maju yang akan membantu untuk melakukan early retirement
+                pada PLTU. Program tersebut akan mendapatkan bantuan dana dari
+                IPG (International Partner Group) yang jumlahnya diperkirakan
+                akan mencapai 20 miliar dolar dan akan dipergunakan untuk
+                melakukan optimalisasi early retirement dari beberapa PLTU untuk
+                bisa konsisten dengan cita-cita 34 persen bauran energi baru
                 terbarukan di tahun 2030.
               </Paragraph>
               <Paragraph>
@@ -792,14 +839,17 @@ const Blog = () => {
                 minyak bumi dan gas alam di tahun yang sama.
               </Paragraph>
               <Paragraph>
-                Konsumsi tersebut juga masih dinilai pilih kasih dengan sumber
-                daya energi bersih lainnya. Konsumsi sumber daya air dan biofuel
-                hanya berada di angka 0,23 dan 0,21 exajoules. Sementara,
-                Indonesia tak nafsu konsumsi energi matahari dan angin hingga
-                benar-benar berada pada angka nol besar. Kondisi miris ini tak
-                cukup sampai disitu, peningkatan konsumsi dari sumber daya
-                energi bersih juga mengalami peningkatan secara lambat bak jalan
-                siput.
+                Konsumsi sumber daya air dan biofuel hanya berada di angka 0,23
+                dan 0,21 exajoules. Sementara, Indonesia konsumsi energi
+                matahari dan angin benar-benar berada pada angka nol besar.
+                Kondisi miris ini tak cukup sampai disitu, peningkatan konsumsi
+                dari sumber daya energi bersih juga mengalami peningkatan secara
+                lambat bak jalan siput.
+              </Paragraph>
+              <Paragraph>
+                <span className="font-bold  text-2xl mb-3 block">
+                  Tingginya Produksi Batu bara Tanpa Komitmen Ramah Lingkungan
+                </span>
               </Paragraph>
               <Iframe>
                 <iframe
@@ -1132,7 +1182,7 @@ const Blog = () => {
                 SPKLU dan SPBKLU secara timpang didominasi oleh wilayah DKI
                 Jakarta dengan total 101 SPKLU dan 217 SPBKLU. Dapat disimpulkan
                 juga bahwa jumlah SPKLU dan SPBKLU di wilayah Pulau Jawa masih
-                mendominasi..
+                mendominasi.
               </Paragraph>
               <Paragraph>
                 Tentu untuk mendorong peralihan menuju kendaraan listrik secepat
@@ -1253,7 +1303,7 @@ const Blog = () => {
                 sebanyak 771 ribu ton. Angka tersebut mengalami kenaikan hingga
                 memiliki angka produksi mencapai 1 juta ton di tahun 2021. Tentu
                 saja hal ini memperlihatkan bahwa Indonesia banjir sumber daya
-                nikel..
+                nikel.
               </Paragraph>
               <Iframe>
                 <iframe
