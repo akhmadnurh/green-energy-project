@@ -25,8 +25,8 @@ const Blog = () => {
             Manifestasi Pelik Transisi Energi
           </h1>
           <div className="flex justify-center items-baseline gap-3">
-            <p className="text-sm md:text-base mt-1 text-green-500 font-bold">
-              Penulis
+            <p className="text-sm md:text-base mt-1 text-white ">
+            Penulis: <span className="font-bold">Alfian Assauqiy</span> | Editor: <span className="font-bold">Puja Pratama Ridwan</span>
             </p>
             <div
               style={{
@@ -36,7 +36,7 @@ const Blog = () => {
                 height: "16px",
               }}
             ></div>
-            <p className="text-white">
+            <p className=" text-green-500 font-bold">
               {dayjs().locale("id").format("DD MMMM YYYY")}
             </p>
           </div>
@@ -495,18 +495,13 @@ const Blog = () => {
                 8,03 persen. Sementara, PLTS masih hanya berada di angka 0,27
                 persen.
               </Paragraph>
-              <Blockquote>
-                {`"Di 2030, diproyeksikan kepemilikan kendaraan listrik berada di
+              <Paragraph>
+                {`Di 2030, diproyeksikan kepemilikan kendaraan listrik berada di
                 angka 2 juta untuk mobil dan 13 juta untuk motor. Disusul
                 rancangan capaian 2031 perihal suntik mati PLTU Subcritical,
                 jenis PLTU yang dinilai paling berjasa menyumbang emisi karbon
-                dalam proses produksinya."`}{" "}
-                <br />
-                <span className="block font-bold mt-2">
-                  BRIDGING WAWANCARA TENTANG LANGKAH ESDM (DIRJEN EBT dan
-                  Konservasi Energi ESDM Qatro Romandhi)
-                </span>
-              </Blockquote>
+                dalam proses produksinya.`}{" "}
+              </Paragraph>
               <Paragraph>
                 Pada 3 April 2023, kami telah melakukan wawancara virtual dengan
                 Qatro Romandhi selaku Koordinator Penyiapan Program Konservasi
@@ -846,6 +841,7 @@ const Blog = () => {
                 dari sumber daya energi bersih juga mengalami peningkatan secara
                 lambat bak jalan siput.
               </Paragraph>
+              <Divider></Divider>
               <Paragraph>
                 <span className="font-bold  text-2xl mb-3 block">
                   Tingginya Produksi Batu bara Tanpa Komitmen Ramah Lingkungan
@@ -1019,16 +1015,13 @@ const Blog = () => {
                 dan Bukit Asam tetap akan berkomitmen meningkatkan produksinya
                 di tahun-tahun mendatang
               </Paragraph>
-              <Blockquote>
-                {`"Padahal pada 2019, pemerintah Indonesia menetapkan aturan
+              <Paragraph>
+                {`Padahal pada 2019, pemerintah Indonesia menetapkan aturan
                 pembatasan produksi batu bara pada 489 juta ton. Sementara pada
                 tahun tersebut, produksi batu bara nasional berada pada angka
                 616,9 juta ton. Hal tersebut menunjukkan inkosistensi pemerintah
-                Indonesia untuk berkomitmen mengurangi energi kotor."`}
-                <span className="block font-bold mt-2">
-                  WAWANCARA ESDM (Dirjen Minerba ESDM - Ridwan Jamaludin)
-                </span>
-              </Blockquote>
+                Indonesia untuk berkomitmen mengurangi energi kotor.`}
+              </Paragraph>
               <Divider />
               <Title>Celah Bolong Solusi Kendaraan Listrik</Title>
               <Paragraph>
@@ -1554,9 +1547,7 @@ const Blog = () => {
                 diberi respons oleh Ridwan Djamaluddin selaku Direktur Minerba
                 ESDM, namun kami tak kunjung mendapat balasan lebih lanjut.
               </Paragraph>
-              {/* <Paragraph>
-
-              </Paragraph> */}
+              <Divider />
               <Paragraph>
                 <span className="font-bold  text-2xl mb-3 block">
                   Solusi di Balik Ketimpangan dan Simalakama
