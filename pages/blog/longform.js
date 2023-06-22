@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Paragraph from "../../components/blog/paragraph";
-// import Iframe from "../../components/blog/iframe";
 import Title from "../../components/blog/title";
 import Divider from "../../components/blog/divider";
 import Blockquote from "../../components/blog/blockquote";
@@ -26,7 +25,8 @@ const Blog = () => {
           </h1>
           <div className="flex justify-center items-baseline gap-3">
             <p className="text-sm md:text-base mt-1 text-white ">
-            Penulis: <span className="font-bold">Alfian Assauqiy</span> | Editor: <span className="font-bold">Puja Pratama Ridwan</span>
+              Penulis: <span className="font-bold">Alfian Assauqiy</span> |
+              Editor: <span className="font-bold">Puja Pratama Ridwan</span>
             </p>
             <div
               style={{
@@ -948,12 +948,61 @@ const Blog = () => {
                 IUPK (Izin Usaha Pertambangan Khusus) berjumlah 7 dengan luas
                 34.207 hektare.
               </Paragraph>
+              <Iframe>
+                <iframe
+                  src="https://flo.uri.sh/visualisation/14087130/embed"
+                  title="Interactive or visual content"
+                  className="flourish-embed-iframe"
+                  frameBorder="0"
+                  scrolling="no"
+                  style={{ width: "100%", height: "600px" }}
+                  sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
+                ></iframe>
+                <div
+                  style={{
+                    marginTop: "4px!important",
+                    textAlign: "right!important",
+                  }}
+                  className="w-full bg-white"
+                >
+                  <a
+                    className="flourish-credit"
+                    href="https://public.flourish.studio/visualisation/14087130/?utm_source=embed&utm_campaign=visualisation/14087130"
+                    target="_blank"
+                    style={{ textDecoration: "none!important" }}
+                  >
+                    <Image
+                      alt="Made with Flourish"
+                      src="https://public.flourish.studio/resources/made_with_flourish.svg"
+                      style={{
+                        width: "105px!important",
+                        height: "16px!important",
+                        border: "none!important",
+                        margin: "0!important",
+                      }}
+                      width={105}
+                      height={16}
+                    />{" "}
+                  </a>
+                </div>
+              </Iframe>
+              <Paragraph>
+                Berdasarkan laporan tahunan tiap perusahaan batu bara Indonesia,
+                perusahaan Bumi Resource menjadi perusahaan dengan produksi batu
+                bara tertingi pada tahun 2021 dengan total produksi di angka
+                52,7 juta ton, disusul oleh Adaro Energy dan Bayan Resource
+                dengan total produksi batu bara masing-masing di angka 52,7 dan
+                37,6 juta ton.
+              </Paragraph>
               <Paragraph>
                 Dari sekian banyak perusahaan batu bara di Indonesia, Adaro
-                Energi dan Bukit Asam adalah dua nama yang berada di puncak
-                industri batu bara di Indonesia. Dari situs resmi dua perusahaan
-                tersebut, tercatat jumlah produksi masing-masing perusahaan
-                mengalami kenaikan sejak tahun 2017 hingga 2019.
+                Energy dan Bukit Asam adalah dua nama yang cukup menarik
+                perhatian dalam industri batu bara di Indonesia. Meski bukan
+                menjadi perusahaan yang paling banyak memproduksi batu bara di
+                Indonesia, dua perusahaan ini menjadi yang paling terbuka
+                perihal informasi perusahaannya. Hal tersebut tercermin dari
+                paparan perusahaan dalam Public Expose 2022 pada kanal Youtube
+                Indonesia Stock Exchange.
               </Paragraph>
               <Iframe>
                 <iframe
@@ -994,33 +1043,55 @@ const Blog = () => {
                 </div>
               </Iframe>
               <Paragraph>
-                Namun, di tahun 2020 kedua perusahaan tersebut sama-sama
-                mengalami penurunan produksi. Di tahun 2019, produksi batu bara
-                Adaro Energy berada di angka 58,03 juta ton. produksi tersebut
-                menurun menjadi 54,53 juta ton di tahun 2022. Sementara,
-                produksi batu bara Bukit Asam tahun 2019 berada di angka 29,07
-                juta ton dan turun menjadi 24,84 juta ton di tahun 2020.
+                Dari situs resmi dua perusahaan tersebut tercatat jumlah
+                produksi masing-masing perusahaan mengalami kenaikan sejak tahun
+                2017 hingga 2019. Namun, di tahun 2020 kedua perusahaan tersebut
+                sama-sama mengalami penurunan produksi. Di tahun 2019, produksi
+                batu bara Adaro Energy berada di angka 58,03 juta ton. Produksi
+                tersebut menurun menjadi 54,53 juta ton di tahun 2022.
+                Sementara, produksi batu bara Bukit Asam tahun 2019 berada di
+                angka 29,07 juta ton dan turun menjadi 24,84 juta ton di tahun
+                2020.
               </Paragraph>
               <Paragraph>
-                Sekretaris PT. Adaro Energi, Mahardika dalam Public Expose 2022
-                yang digelar pada 12 September 2022 lalu menyampaikan bahwa PT
-                Adaro Energy tetap memiliki target produksi batu bara di tahun
-                2022 pada angka 58 - 60 juta ton. Sementara, PT Bukit Asam
-                menargetkan memproduksi sebanyak 50 juta ton per tahun atau
-                hampir dua kali lipat dari produksi tahun 2021.
+                Sekretaris PT. Adaro Energy, Mahardika dalam Public Expose 2022
+                yang digelar pada 12 September 2022 lalu menyampaikan bahwa{" "}
+                <Link
+                  href={"https://www.youtube.com/watch?v=mTg1G-GNKvo"}
+                  target="_blank"
+                  className="link"
+                >
+                  PT Adaro Energy
+                </Link>{" "}
+                tetap memiliki target produksi batu bara di tahun 2022 pada
+                angka 58 - 60 juta ton. Sementara, di acara yang sama Farida
+                Thamrin selaku Direktur Keuangan dan Manajemen Risiko{" "}
+                <Link
+                  href={
+                    "https://www.youtube.com/watch?v=sSoNtxcNKoI&list=PLCNhB9UaGLBHJCbAz7PkGB04Shc-HUY35&index=19"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  PT Bukit Asam
+                </Link>{" "}
+                menargetkan produksi batu bara full year tahun 2022 di angka 36
+                juta ton.
               </Paragraph>
               <Paragraph>
                 Untuk itu, selayaknya fitrah perusahaan yang memang akan
                 menargetkan revenue yang tinggi, tak heran mengapa Adaro Energy
                 dan Bukit Asam tetap akan berkomitmen meningkatkan produksinya
-                di tahun-tahun mendatang
+                di tahun-tahun mendatang. Namun dari beberapa riset media yang
+                kami lakukan, hampir seluruh “pemain” industri batu bara tak
+                berkomitmen untuk mengurangi angka produksi.
               </Paragraph>
               <Paragraph>
-                {`Padahal pada 2019, pemerintah Indonesia menetapkan aturan
+                Padahal pada 2019, pemerintah Indonesia menetapkan aturan
                 pembatasan produksi batu bara pada 489 juta ton. Sementara pada
                 tahun tersebut, produksi batu bara nasional berada pada angka
                 616,9 juta ton. Hal tersebut menunjukkan inkosistensi pemerintah
-                Indonesia untuk berkomitmen mengurangi energi kotor.`}
+                Indonesia untuk berkomitmen mengurangi energi kotor.
               </Paragraph>
               <Divider />
               <Title>Celah Bolong Solusi Kendaraan Listrik</Title>
@@ -1469,32 +1540,62 @@ const Blog = () => {
               <Paragraph>
                 Dalam waktu satu tahun ke belakang ada tiga perusahaan nikel
                 yang kerap menyita perhatian publik lantaran permasalahan yang
-                timbul karena buruknya tata kelola tambang.
+                timbul karena tercatat membuat hubungan yang buruk dengan
+                masyarakat sekitar.
               </Paragraph>
               <Paragraph>
-                Yang pertama ada PT. Trimegah Bangun Persada yang berlokasi di
-                Pulau Obi, Maluku Utara. Dalam beberapa laporan yang telah
-                rilis, PT. Trimegah Bangun Persada pernah melakukan penggusuran
-                tanah warga. Tak sampai disitu, PT Trimegah Bangun Persada
-                bahkan juga menggunakan tanah sengketa tanpa izin.
+                Yang pertama ada{" "}
+                <Link
+                  href={
+                    "https://projectmultatuli.org/perempuan-obi-bertahan-di-tengah-gusuran-industri-nikel-torang-dibuat-mati-perlahan-lahan/"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  PT. Trimegah Bangun Persada
+                </Link>{" "}
+                yang berlokasi di Pulau Obi, Maluku Utara. Dalam beberapa
+                laporan yang telah rilis, PT. Trimegah Bangun Persada pernah
+                melakukan penggusuran tanah warga. Tak sampai disitu, PT
+                Trimegah Bangun Persada bahkan juga menggunakan tanah sengketa
+                tanpa izin.
               </Paragraph>
               <Paragraph>
                 Hal yang tak kalah menyedihkan juga terjadi di Halmahera Tengah,
-                Provinsi Maluku Utara. PT Weda Bay Nickel tercatat pernah
-                melakukan pembebasan lahan seenak jidat dengan mematok harga
-                lahan seharga 8 ribu rupiah, bahkan nominal tersebut juga
-                diturunkan menjadi 2.500 rupiah yang tak bahkan lebih murah dari
-                sebungkus indomie ayam bawang. Masyarakat setempat juga
-                mengklaim bahwa PT. Weda Bay Nickel juga mencemari laut dan
-                udara akibat aktivitas pertambangan. Sedihnya, di tahun 2013
-                lalu bahkan ada salah satu warga Desa Lelilef yang dipenjara
-                karena tuduhan mengancam karyawan PT Weda Bay Nickel.
+                Provinsi Maluku Utara.{" "}
+                <Link
+                  href={
+                    "https://betahita.id/news/detail/7992/mereka-yang-melawan-dan-tersingkir-lantaran-nikel.html?v=1664358309"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  PT Weda Bay Nickel
+                </Link>{" "}
+                tercatat pernah melakukan pembebasan lahan seenak jidat dengan
+                mematok harga lahan seharga 8 ribu rupiah, bahkan nominal
+                tersebut juga diturunkan menjadi 2.500 rupiah yang tak bahkan
+                lebih murah dari sebungkus indomie ayam bawang. Masyarakat
+                setempat juga mengklaim bahwa PT. Weda Bay Nickel juga mencemari
+                laut dan udara akibat aktivitas pertambangan. Sedihnya, di tahun
+                2013 lalu bahkan ada salah satu warga Desa Lelilef yang
+                dipenjara karena tuduhan mengancam karyawan PT Weda Bay Nickel.
               </Paragraph>
               <Paragraph>
-                Selain itu, PT. Gema Kreasi Perdana juga pernah melakukan
-                penerobosan lahan milik warga Roko-Roko Raya, Konawe Kepulauan,
-                Sulawesi Tenggara. Selain tiga kasus di atas masih banyak kasus
-                yang ditimbulkan di tahun-tahun sebelumnya.
+                Selain itu,{" "}
+                <Link
+                  href={
+                    "https://projectmultatuli.org/perempuan-obi-bertahan-di-tengah-gusuran-industri-nikel-torang-dibuat-mati-perlahan-lahan/"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  PT. Gema Kreasi Perdana
+                </Link>{" "}
+                juga pernah melakukan penerobosan lahan milik warga Roko-Roko
+                Raya, Konawe Kepulauan, Sulawesi Tenggara. Selain tiga kasus di
+                atas masih banyak kasus yang ditimbulkan di tahun-tahun
+                sebelumnya.
               </Paragraph>
               <Iframe>
                 <iframe
