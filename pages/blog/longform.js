@@ -1588,7 +1588,8 @@ const Blog = () => {
                     "https://projectmultatuli.org/perempuan-obi-bertahan-di-tengah-gusuran-industri-nikel-torang-dibuat-mati-perlahan-lahan/"
                   }
                   target="_blank"
-                  className="link"
+                  className="link
+                  "
                 >
                   PT. Gema Kreasi Perdana
                 </Link>{" "}
