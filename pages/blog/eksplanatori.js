@@ -17,7 +17,7 @@ export default function Explanatory() {
         <div className="container mx-auto min-h-[50vh] mb-5">
           <div className="mx-0 sm:mx-6 flex justify-center">
             <iframe
-              src="https://drive.google.com/file/d/130h5e52DoPXawuh2-_7yOpr_oBGH385Y/preview"
+              src="https://drive.google.com/file/d/1xs4y-SQwc-UYw86n_UBlEmIdY-tJYUn0/preview"
               width="1280"
               height="720"
               allow="autoplay"
