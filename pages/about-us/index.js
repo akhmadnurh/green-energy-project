@@ -24,7 +24,7 @@ export default function AboutUs() {
               </div>
               <div className="text-justify">
                 <Paragraph>
-                  Green Energy Project adalah sebuah karya tugas akhir Sekolah
+                  Green Energy Project adalah sebuah karya tugas akhir mahasiswa Sekolah
                   Tinggi Multimedia Yogyakarta angkatan 2019. Kami adalah sebuah
                   tim yang berkolaborasi dari berbagai program studi, yakni
                   Manajemen Produksi Berita, Manajemen Teknik Studio Produksi,
@@ -70,6 +70,11 @@ export default function AboutUs() {
               {/* Creator */}
               <div className="my-10">
                 <Divider></Divider>
+                <div style={{textAlign: 'center'}}>
+                <Title>Kerabat Kerja</Title>
+               Supervisor I: Diyah Ayu Karunianingsih, S.PT., MA <br/>
+                Supervisor II: Dra. Siti Asiatun, M.M <br/>
+                </div>
               </div>
               <div className="grid grid-cols-none gap-10 justify-items-stretch text-center text-white text-lg ">
                 <div className="grid grid-cols-3 gap-10">
